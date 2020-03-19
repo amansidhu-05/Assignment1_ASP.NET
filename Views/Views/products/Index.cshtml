@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Assignment1.Models.product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.productType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.productName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.price)
+            </th>
+           
+                @if (User.Identity.IsAuthenticated)
+                {
+                <th>
+                    Manage
+                </th>
+            }
+             
+            </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.productType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.productName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.price)
+            </td>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.productId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.productId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.productId">Delete</a>
+                </td>
+            }
+        </tr>
+}
+    </tbody>
+</table>
