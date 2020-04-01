@@ -46,6 +46,7 @@ namespace Assignment1.Controllers
         // GET: brands/Create
         public IActionResult Create()
         {
+            ViewData["brandId"] = new SelectList(_context.brands, "brandId", "brandId");
             return View();
         }
 
@@ -62,6 +63,7 @@ namespace Assignment1.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["brandId"] = new SelectList(_context.brands, "brandId", "brandId", brands.brandId);
             return View(brands);
         }
 
@@ -78,6 +80,7 @@ namespace Assignment1.Controllers
             {
                 return NotFound();
             }
+            ViewData["brandId"] = new SelectList(_context.brands, "brandId", "brandId", brands.brandId);
             return View(brands);
         }
 
@@ -113,6 +116,7 @@ namespace Assignment1.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["brandId"] = new SelectList(_context.brands, "brandId", "brandId", brands.brandId);
             return View(brands);
         }
 
@@ -124,7 +128,7 @@ namespace Assignment1.Controllers
                 return NotFound();
             }
 
-            var brands = await _context.brands
+            var brands = await _context.brands 
                 .FirstOrDefaultAsync(m => m.brandId == id);
             if (brands == null)
             {

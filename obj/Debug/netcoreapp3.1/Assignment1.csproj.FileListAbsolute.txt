@@ -167,8 +167,6 @@ D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\bin\Debug\netcore
 D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cs
-D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cache
 D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.Views.pdb
 D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.dll
 D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.pdb
@@ -182,3 +180,6 @@ D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcore
 D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\brands\Details.cshtml.g.cs
 D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\brands\Edit.cshtml.g.cs
 D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcoreapp3.1\Razor\Views\brands\Index.cshtml.g.cs
+D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cs
+D:\Semester 3\Server Side Scripting- ASP.NET\Codes\Assignment1\obj\Debug\netcoreapp3.1\Assignment1.MvcApplicationPartsAssemblyInfo.cache
